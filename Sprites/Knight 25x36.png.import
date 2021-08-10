@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Knight Final No Hands.png-f06353ad84358d3cbfe2aa6418ae516e.stex"
+path="res://.import/Knight 25x36.png-f3e9356dd4a3e5b6e548af55e00282dd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Knight Final No Hands.png"
-dest_files=[ "res://.import/Knight Final No Hands.png-f06353ad84358d3cbfe2aa6418ae516e.stex" ]
+source_file="res://Sprites/Knight 25x36.png"
+dest_files=[ "res://.import/Knight 25x36.png-f3e9356dd4a3e5b6e548af55e00282dd.stex" ]
 
 [params]
 

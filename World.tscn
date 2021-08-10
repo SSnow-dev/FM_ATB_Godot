@@ -1,13 +1,18 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Bush.tscn" type="PackedScene" id=2]
 
-[node name="World" type="Node2D"]
+[node name="World" type="YSort"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 48, 40 )
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="Bush" parent="." instance=ExtResource( 2 )]
+position = Vector2( 16, 16 )
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
-polygon = PoolVector2Array( 0, 0, 16, 0, 24, 8, 16, 24, 16, 48, 40, 64, 32, 80, 48, 96, 88, 96, 104, 104, 144, 88, 168, 96, 208, 104, 224, 72, 256, 64, 240, 24, 264, 0, 320, 0, 320, 152, 0, 152 )
+[node name="Bush2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 80, 80 )
+
+[node name="Bush3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 112, 80 )
