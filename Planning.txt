@@ -1,0 +1,21 @@
+get a target
+get in range of target
+if in range can attack/engage
+if attacking enter engaged state
+while engaged attack repeatidly based on attack speed (stat)
+(if engaged and time since last attack >= attack speed)
+ Attack:
+	play attack animation
+	calculate damage to target
+can move freely except for during attack animation
+moving away from target disengages
+
+secondary concerns:
+getting a target should involve checking nearby range for attackable entities
+then selected one from a list and then choosing attack
+
+calculated damage should be displayed visually over target (or miss, dodge, block ect...)
+
+other possibilities:
+
+engaged state has slower movement speed.
